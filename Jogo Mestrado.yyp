@@ -35,6 +35,7 @@
   "name":"Jogo Mestrado",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Quadrado","path":"sprites/Quadrado/Quadrado.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
