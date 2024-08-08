@@ -34,7 +34,9 @@
   },
   "name":"Jogo Mestrado",
   "resources":[
+    {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_personagem","path":"sprites/spr_personagem/spr_personagem.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
