@@ -34,6 +34,7 @@
   },
   "name":"Jogo Mestrado",
   "resources":[
+    {"id":{"name":"obj_cerca","path":"objects/obj_cerca/obj_cerca.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_barranco_lix","path":"sprites/spr_barranco_lix/spr_barranco_lix.yy",},},

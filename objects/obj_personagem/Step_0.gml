@@ -15,5 +15,21 @@ velh = lengthdir_x(veloc * tecla, dir);
 velv = lengthdir_y(veloc *tecla, dir);
 
 //indicando que o X e o Y seguem a velh e a velv 
+
+if(place_meeting(x+velh,y,obj_cerca)){
+	while(!place_meeting(x+sign(velh),y,obj_cerca)){
+		x = x + sign(velh);
+	}
+	velh = 0;
+}
+	
 x+= velh;
+
+if(place_meeting(x,y + velv,obj_cerca)){
+	while(!place_meeting(x,y+sign(velv),obj_cerca)){
+		y = y + sign(velv);
+	}
+	velv = 0;
+}
+
 y+= velv;
